@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Charts example</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+</head>
+
+<body>
+
+    <div class="charts">
+
+        <div class="top-charts">
+            <div class="left-top-charts">
+                <div id="readiness">
+                    <canvas id="readiness-template"></canvas>
+                    <script src="charts/readiness.js"></script>
+                </div>
+                <div id="health">
+                    <canvas id="health-template"></canvas>
+                    <script src="charts/health.js"></script>
+                </div>
+            </div>
+            <div class="right-top-charts">
+                <div id="activities">
+                    <canvas id="activities-template"></canvas>
+                    <script src="charts/activities.js"></script>
+                </div>
+                <div id="deliverables">
+                    <canvas id="deliverables-template"></canvas>
+                    <script src="charts/deliverables.js"></script>
+                </div>
+                <div id="variance">
+                    <canvas id="variance-template"></canvas>
+                    <script src="charts/variance.js"></script>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
