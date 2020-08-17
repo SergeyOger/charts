@@ -1,3 +1,7 @@
+.charts {
+    height: 100%;
+}
+
 .top-charts {
     display: flex;
     flex-direction: row;
@@ -18,13 +22,16 @@
     display: flex;
     flex-direction: row;
     border-style: solid;
-    border-width: 1px;justify-content: center;
+    border-width: 1px;
+    justify-content: center;
     width: 58%;
 }
 
 #readiness {
     width: 50%;
     height: 100%;
+    background-color: darkgrey;
+    margin: 1%;
 }
 
 #health {
@@ -46,3 +53,72 @@
     width: 33%;
     height: 100%;
 }
+
+.bottom-charts {
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+}
+
+.bottom-left-charts {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+}
+
+.doughtnut-charts {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+}
+#categories-dot {
+    width: 50%;
+    height: 100%;
+}
+#deliverables-dot {
+    width: 50%;
+    height: 100%;
+}
+
+table.table-chart {
+    border: 2px solid #FFFFFF;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.table-chart td, table.table-chart th {
+    border: 1px solid #FFFFFF;
+    padding: 3px 4px;
+  }
+  table.table-chart tbody td {
+    font-size: 13px;
+  }
+  table.table-chart td:nth-child(even) {
+    background: #EBEBEB;
+  }
+  table.table-chart thead {
+    background: #FFFFFF;
+    border-bottom: 4px solid #333333;
+  }
+  table.table-chart thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    border-left: 2px solid #333333;
+  }
+  table.table-chart thead th:first-child {
+    border-left: none;
+  }
+  
+  table.table-chart tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    border-top: 4px solid #333333;
+  }
+  table.table-chart tfoot td {
+    font-size: 14px;
+  }
